@@ -38,7 +38,7 @@ class App extends Component {
             <Carousel afterChange={onChange} className= "img-carusel" >
                   
               {/* <div><h3>1</h3></div> */} <img className= "img-carusel" src="https://cdn.pixabay.com/photo/2014/06/02/22/37/old-age-360714__340.jpg" alt="abuelo"/>
-              {/* <div><h3>2</h3></div> <img src="https://cdn.pixabay.com/photo/2015/09/25/14/38/old-age-957492__340.jpg" alt="ABUELO 2"/> */}
+              {/* <div><h3>2</h3></div> */}<img className= "img-carusel" src="https://cdn.pixabay.com/photo/2015/09/25/14/38/old-age-957492__340.jpg" alt="ABUELO 2"/> 
             </Carousel>
           </div>
           <div>
@@ -56,6 +56,7 @@ class App extends Component {
                 </Card>
                 </Col>
                 <Col span={6}>
+                <h1>ASDFGH</h1>
                 <Card
                       hoverable
                       style={{ width: 240 }}
